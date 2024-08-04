@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #3f3434;
+    color: #fff;
+    display: flex;
+    justify-content: inherit;
+    align-items: inherit;
+    height: 50vh;
+    margin: 1px;
+    padding: auto;
+}
+
+.container {
+    width: 450px;
+ background:#3f3434;
+ border-radius: 15px;
+ padding: 50px;
+ text-align:center;
+ justify-items: 10px;
+}
+
+header {
+    text-align: left;
+    margin-bottom: 20px;
+    padding-left: 50%;
+    border:#1a1a1a ;
+}
+
+header h1 {
+    color: rgb(204, 192, 192);
+    display: flex;
+
+}
+
+.info {
+    margin-bottom: 20px;
+
+}
+
+.info h2 {
+    margin-top: 10px;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+.info p {
+    font-size: 16px;
+}
+
+#links {
+    background: #3f3434;
+    border-radius: 20px;
+    padding: 10px;
+    width: 90%;
+    box-sizing: border-box;
+    
+}
+
+.link {
+    width: 22%;
+    padding: 12px;
+    border-width: 1px;
+    background: rgb(240, 231, 231);
+    color: #3f3434;
+    font-size: 15px;
+    border-radius: 30px;
+    cursor: cell;
+}
+
+.link:hover {
+    background: #dd0d4f;
+    color: rgb(29, 24, 24);
+}
+
+.status {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.status h2 {
+    margin-top: 10px;
+}
+
+#coinBalance {
+    font-size: 24px;
+    font-weight: bold;
+    color: #28a745;
+    align-content: center;}

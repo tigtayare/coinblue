@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task</title>
+    <link rel="stylesheet" href="styles2.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+        <img id="profilePic" src="https://via.placeholder.com/50" alt="User">
+        <div>
+        <h2 id="userName">(CEO)</h2>
+        <hi>back</hi>
+        <main>
+            <section class="info">
+                <h2>Task</h2>
+                <p>Click on any of the links below to earn 100,000 coins!</p>
+                <div id="links">
+                    <img src="logo-youtube.webp" alt="Hamster" href="https://youtu.be/UPrkC1LdlLY?feature=shared", class="link" data-coins="100000"></a>
+                    <img src="Telegram_logo.webp" alt="Hamster" href="#" class="link" data-coins="100000"></a>
+                    <img src="3333.webp" alt="Hamster" href="#" class="link" data-coins="100000"></a>
+                    <!-- Add more links as needed -->
+                </div>
+            </section>
+            <section class="status">
+                <h2>Your Coin Balance</h2>
+                <p id="coinBalance">0</p>
+                <br><br><div class="hamster" onclick="addCoins()">
+                    <img src="2.png" alt="Hamster"></div>
+                <div class="level">
+                    <p>Level <span id="currentLevel">1</span>/50</p>
+                    <div class="progress-bar">
+                    <div id="progress"></div>
+            </section>
+        </main>
+    </div>
+    <script src="script2.js"></script>
+</body>
+</html>
