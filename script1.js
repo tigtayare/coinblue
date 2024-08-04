@@ -1,9 +1,9 @@
 let coins = 0;
 let currentLevel = 1;
-const coinsToLevelUp = 1000000;
-const maxLevel = 10;
+const coinsToLevelUp = 100;
+const maxLevel = 100;
 function addCoins() {
-coins += 10;
+coins += 1;
 document.getElementById('score').textContent = `$ ${coins.toLocaleString()}`;
 const progressPercent = (coins % coinsToLevelUp) / coinsToLevelUp * 100;
 document.getElementById('progress').style.width = progressPercent + '%';
